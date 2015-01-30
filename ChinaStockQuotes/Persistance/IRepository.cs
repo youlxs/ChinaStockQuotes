@@ -10,6 +10,8 @@ namespace ChinaStockQuotes.Persistance
     {
         TEntity GetById(TIdType id);
 
+
+
         TEntity Add(TEntity entity);
 
         void Update(TEntity entity);
